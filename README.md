@@ -3,13 +3,13 @@
 Fatma Nilay Süzer,
 Bilişim Sistemleri Mühendisliği, Kocaeli Üniversitesi
 
-#📖 Proje Hakkında
+📖 Proje Hakkında
 
 Scala, kullanıcıların kitapları inceleyebildiği, sepete ekleyebildiği, yorum sistemini görüntüleyebildiği ve admin paneli aracılığıyla içerik yönetimi yapılabilen web tabanlı bir kitap satış platformudur.
 
 Proje tamamen HTML, CSS, JavaScript ve Bootstrap kullanılarak geliştirilmiş olup; backend gerektirmeyen, front-end tabanlı bir basit CMS mantığı uygulanmıştır.
 
-#🎯 Öne Çıkan Özellikler
+🎯 Öne Çıkan Özellikler
 
 👤 Kullanıcı Tarafı
 
@@ -39,7 +39,7 @@ Proje tamamen HTML, CSS, JavaScript ve Bootstrap kullanılarak geliştirilmiş o
 
 -İçerik yönetimi tamamen front-end üzerinden yürütülür
 
-#🖥️ Teknik Yapı
+🖥️ Teknik Yapı
 
 Proje aşağıdaki teknolojiler üzerine kuruludur:
 
@@ -51,7 +51,7 @@ Chart.js	İstatistik grafikleri
 localStorage	Veri saklama (sepet & içerik)
 Modal Yapısı	Giriş/Üyelik & uyarılar
 
-#🔧 Sistem Modülleri
+🔧 Sistem Modülleri
 
 -Ana Sayfa
 
@@ -73,7 +73,7 @@ Modal Yapısı	Giriş/Üyelik & uyarılar
 
 -İletişim Sayfası + Harita Entegrasyonu
 
-#📊 Grafikler (Chart.js)
+📊 Grafikler (Chart.js)
 
 Projede yer alan istatistik grafikleri:
 
@@ -85,7 +85,7 @@ Projede yer alan istatistik grafikleri:
 
 -Aylık satış grafiği
 
-#⚙️ Fonksiyonel Gereksinimler
+⚙️ Fonksiyonel Gereksinimler
 
 -Ürün listeleme
 
@@ -97,7 +97,7 @@ Projede yer alan istatistik grafikleri:
 
 -Modal tabanlı kullanıcı doğrulaması
 
-#🧩 Fonksiyonel Olmayan Gereksinimler
+🧩 Fonksiyonel Olmayan Gereksinimler
 
 -%100 responsive tasarım
 
@@ -107,7 +107,7 @@ Projede yer alan istatistik grafikleri:
 
 -Basitçe düzenlenebilir içerikler
 
-#🚧 Karşılaşılan Zorluklar
+🚧 Karşılaşılan Zorluklar
 
 -Uygun şablon seçimi
 
@@ -116,7 +116,7 @@ Projede yer alan istatistik grafikleri:
 -Admin paneli ve sepet gibi fonksiyonel yapıların şablona entegre edilmesi
 
 Scala/
-│
+
 ├── css/                     
 ├── images/                  
 ├── js/                     
