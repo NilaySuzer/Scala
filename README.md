@@ -3,43 +3,43 @@
 Fatma Nilay Süzer
 Bilişim Sistemleri Mühendisliği, Kocaeli Üniversitesi
 
-📖 Proje Hakkında
+#📖 Proje Hakkında
 
 Scala, kullanıcıların kitapları inceleyebildiği, sepete ekleyebildiği, yorum sistemini görüntüleyebildiği ve admin paneli aracılığıyla içerik yönetimi yapılabilen web tabanlı bir kitap satış platformudur.
 
 Proje tamamen HTML, CSS, JavaScript ve Bootstrap kullanılarak geliştirilmiş olup; backend gerektirmeyen, front-end tabanlı bir basit CMS mantığı uygulanmıştır.
 
-🎯 Öne Çıkan Özellikler
+#🎯 Öne Çıkan Özellikler
 
 👤 Kullanıcı Tarafı
 
-Kitap listeleme ve ürün detay sayfaları
+-Kitap listeleme ve ürün detay sayfaları
 
-Sepet yönetimi (Ekleme, silme, fiyat hesaplama, localStorage kayıt)
+-Sepet yönetimi (Ekleme, silme, fiyat hesaplama, localStorage kayıt)
 
-Yorum sistemi
+-Yorum sistemi
 
-Giriş/Yeni Üyelik modalları
+-Giriş/Yeni Üyelik modalları
 
-Çok satanlar bölümü
+-Çok satanlar bölümü
 
-Grafiksel istatistik ekranı (Chart.js)
+-Grafiksel istatistik ekranı (Chart.js)
 
-Mobil uyumlu modern arayüz
+-Mobil uyumlu modern arayüz
 
 🔐 Admin Paneli
 
-Duyuru ekleme sistemi
+-Duyuru ekleme sistemi
 
-PDF, Word ve resim yükleme
+-PDF, Word ve resim yükleme
 
-Ürün, kullanıcı ve tanıtım görseli ekleme alanları
+-Ürün, kullanıcı ve tanıtım görseli ekleme alanları
 
-Sidebar tabanlı yönetim paneli
+-Sidebar tabanlı yönetim paneli
 
-İçerik yönetimi tamamen front-end üzerinden yürütülür
+-İçerik yönetimi tamamen front-end üzerinden yürütülür
 
-🖥️ Teknik Yapı
+#🖥️ Teknik Yapı
 
 Proje aşağıdaki teknolojiler üzerine kuruludur:
 
@@ -50,69 +50,70 @@ JavaScript (ES6)	Sepet, duyurular, modal yönetimi
 Chart.js	İstatistik grafikleri
 localStorage	Veri saklama (sepet & içerik)
 Modal Yapısı	Giriş/Üyelik & uyarılar
-🔧 Sistem Modülleri
 
-Ana Sayfa
+#🔧 Sistem Modülleri
 
-Ürün Sayfaları
+-Ana Sayfa
 
-Ürün Detay
+-Ürün Sayfaları
 
-Sepet Sayfası
+-Ürün Detay
 
-Duyurular
+-Sepet Sayfası
 
-İstatistikler
+-Duyurular
 
-Admin Paneli
+-İstatistikler
 
-Birimlerimiz (Depo/Stok Yönetimi – Müşteri Hizmetleri)
+-Admin Paneli
 
-Hakkımızda (Biz Kimiz, Misyon, Vizyon, Sayılarla Scala)
+-Birimlerimiz (Depo/Stok Yönetimi – Müşteri Hizmetleri)
 
-İletişim Sayfası + Harita Entegrasyonu
+-Hakkımızda (Biz Kimiz, Misyon, Vizyon, Sayılarla Scala)
 
-📊 Grafikler (Chart.js)
+-İletişim Sayfası + Harita Entegrasyonu
+
+#📊 Grafikler (Chart.js)
 
 Projede yer alan istatistik grafikleri:
 
-Kategorilere göre stok sayıları
+-Kategorilere göre stok sayıları
 
-Yıllara göre müşteri artışı
+-Yıllara göre müşteri artışı
 
-Kitap türlerinin oranı
+-Kitap türlerinin oranı
 
-Aylık satış grafiği
+-Aylık satış grafiği
 
-⚙️ Fonksiyonel Gereksinimler
+#⚙️ Fonksiyonel Gereksinimler
 
-Ürün listeleme
+-Ürün listeleme
 
-Sepet işlemleri
+-Sepet işlemleri
 
-Duyuru yönetimi
+-Duyuru yönetimi
 
-Grafik gösterimi
+-Grafik gösterimi
 
-Modal tabanlı kullanıcı doğrulaması
+-Modal tabanlı kullanıcı doğrulaması
 
-🧩 Fonksiyonel Olmayan Gereksinimler
+#🧩 Fonksiyonel Olmayan Gereksinimler
 
-%100 responsive tasarım
+-%100 responsive tasarım
 
-Modern, anlaşılır UI/UX
+-Modern, anlaşılır UI/UX
 
-Hızlı çalışan JS tabanlı yapı
+-Hızlı çalışan JS tabanlı yapı
 
-Basitçe düzenlenebilir içerikler
+-Basitçe düzenlenebilir içerikler
 
-🚧 Karşılaşılan Zorluklar
+#🚧 Karşılaşılan Zorluklar
 
-Uygun şablon seçimi
+-Uygun şablon seçimi
 
-Şablonun sınırlarından dolayı birçok bileşenin %90'ının sıfırdan yeniden tasarlanması
+-Şablonun sınırlarından dolayı birçok bileşenin %90'ının sıfırdan yeniden tasarlanması
 
-Admin paneli ve sepet gibi fonksiyonel yapıların şablona entegre edilmesi
+-Admin paneli ve sepet gibi fonksiyonel yapıların şablona entegre edilmesi
 
 Scala/
 │
