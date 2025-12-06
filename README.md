@@ -1,4 +1,4 @@
-# 📚 Scala – Web Tabanlı Kitap Satış Sistemi
+# 📚 Scala – Web Tabanlı Kitap Satış Sitesi
 
 Fatma Nilay Süzer
 Bilişim Sistemleri Mühendisliği, Kocaeli Üniversitesi
