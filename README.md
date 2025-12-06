@@ -116,7 +116,7 @@ Projede yer alan istatistik grafikleri:
 -Admin paneli ve sepet gibi fonksiyonel yapıların şablona entegre edilmesi
 
 Scala/
-
+├
 ├── css/                     
 ├── images/                  
 ├── js/                     
