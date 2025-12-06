@@ -1,6 +1,6 @@
 # 📚 Scala – Web Tabanlı Kitap Satış Sitesi
 
-Fatma Nilay Süzer
+Fatma Nilay Süzer,
 Bilişim Sistemleri Mühendisliği, Kocaeli Üniversitesi
 
 #📖 Proje Hakkında
