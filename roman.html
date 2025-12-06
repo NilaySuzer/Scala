@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Scala</title>
+
+    <!-- slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
+    />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+
+  <body class="sub_page">
+    <div class="hero_area">
+      <!-- header section strats -->
+      <div class="brand_box">
+        <a class="navbar-brand" href="index.html">
+          <span class="sus"> Scala. </span>
+        </a>
+      </div>
+      <!-- end header section -->
+    </div>
+
+    <!-- nav section -->
+
+    <section class="nav_section">
+      <div class="container">
+        <div class="custom_nav2">
+          <nav class="navbar navbar-expand custom_nav-container">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="d-flex flex-column flex-lg-row align-items-center">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"
+                      >Ana Sayfa <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="urunlerDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Ürünlerimiz
+                    </a>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="urunlerDropdown"
+                    >
+                      <a class="dropdown-item" href="test.html"
+                        >Test Kitapları</a
+                      >
+                      <a class="dropdown-item" href="cocuk.html"
+                        >Çocuk Kitapları</a
+                      >
+                      <a class="dropdown-item" href="roman.html">Roman</a>
+                    </div>
+                  </li>
+                  <!-- Birimlerimiz Dropdown -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="birimlerDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Birimlerimiz
+                    </a>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="birimlerDropdown"
+                    >
+                      <a class="dropdown-item" href="musteri.html"
+                        >Müşteri Hizmetleri</a
+                      >
+                      <a class="dropdown-item" href="satis.html"
+                        >Depo/Stok Yönetimi</a
+                      >
+                    </div>
+                  </li>
+                  <!-- Hakkımızda Dropdown -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="birimlerDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Hakkımızda
+                    </a>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="birimlerDropdown"
+                    >
+                      <a class="dropdown-item" href="about.html">Biz Kimiz?</a>
+                      <a class="dropdown-item" href="misviz.html"
+                        >Misyon-Vizyon</a
+                      >
+                      <a class="dropdown-item" href="sayi.html"
+                        >Sayılarla Scala</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">İletişim</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sepet.html"
+                      >🛒 Sepet (<span id="cartCount"></span>)</a
+                    >
+                  </li>
+                </ul>
+                <form
+                  class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0"
+                ></form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section class="fruit_section layout_padding">
+      <div class="container">
+        <div class="heading_container">
+          <hr />
+          <h2>Roman</h2>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="fruit_container">
+          <div class="box">
+            <img src="images/84.jpg" alt="" />
+            <div class="link_box">
+              <h5>1984</h5>
+              <a href="1984.html">Ürüne Git </a>
+              <button class="btn" onclick="addToCart('1984', 120)">
+                Sepete Ekle
+              </button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/nrm" alt="" />
+            <div class="link_box">
+              <h5>Normal İnsanlar</h5>
+              <a href="normal.html">Ürüne Git</a>
+              <button class="btn" onclick="addToCart('Normal İnsanlar', 120)">
+                Sepete Ekle
+              </button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/3.png" alt="" />
+            <div class="link_box">
+              <h5>Üç Büyük Usta</h5>
+              <a href="">Ürüne Git</a>
+              <button class="btn" onclick="addToCart('Üç Büyük Usta', 120)">
+                Sepete Ekle
+              </button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/kck.jpg" alt="" />
+            <div class="link_box">
+              <h5>Küçük Prens</h5>
+              <a href="">Ürüne Git</a>
+              <button class="btn" onclick="addToCart('Küçük Prens, 120')">
+                Sepete Ekle
+              </button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/portakal.jpg" alt="" />
+            <div class="link_box">
+              <h5>Otomatik Portakal</h5>
+              <a href="">Ürüne Git</a>
+              <button class="btn" onclick="addToCart('Otomatik Portakal', 120)">
+                Sepete Ekle
+              </button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/fh.jpg" alt="" />
+            <div class="link_box">
+              <h5>Fahrenheit 451</h5>
+              <a href="">Ürüne Git</a>
+              <button class="btn" onclick="addToCart('Fahrenheit 451', 120)">
+                Sepete Ekle
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <section class="container-fluid footer_section">
+      <div class="container">
+        <div class="info_logo">
+          <h2>KAMPANYA MAİLLERİ İÇİN ABONE OL!</h2>
+        </div>
+        <div class="info_contact">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="">
+                <img src="images/location.png" alt="" />
+                <span> Atalar Mah. Halit Paşa Cad. No:61 Kartal/İstanbul</span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="">
+                <img src="images/call.png" alt="" />
+                <span> (+90) 558 248 69 36 </span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="">
+                <img src="images/mail.png" alt="" />
+                <span> scalakitap@gmail.com </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-lg-9">
+            <div class="info_form">
+              <form action="">
+                <input type="text" placeholder="E-mailinizi girin" />
+                <button>Abone ol</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <div class="info_social">
+              <div>
+                <a href="">
+                  <img src="images/facebook-logo-button.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/twitter-logo-button.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/linkedin.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/instagram.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>
+        &copy; <span id="displayYear"></span> Tüm hakları saklıdır.
+        <a href="https://html.design/">FNS Design</a>
+      </p>
+    </section>
+    <!-- footer section -->
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/sepet.js"></script>
+  </body>
+</html>

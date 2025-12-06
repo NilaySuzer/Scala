@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Scala</title>
+
+    <!-- slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
+    />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+
+  <body class="sub_page">
+    <div class="hero_area">
+      <!-- header section strats -->
+      <div class="brand_box">
+        <a class="navbar-brand" href="index.html">
+          <span class="sus"> Scala. </span>
+        </a>
+      </div>
+      <!-- end header section -->
+    </div>
+
+    <!-- nav section -->
+
+    <section class="nav_section">
+      <div class="container">
+        <div class="custom_nav2">
+          <nav class="navbar navbar-expand custom_nav-container">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="d-flex flex-column flex-lg-row align-items-center">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"
+                      >Ana Sayfa <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="urunlerDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Ürünlerimiz
+                    </a>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="urunlerDropdown"
+                    >
+                      <a class="dropdown-item" href="test.html"
+                        >Test Kitapları</a
+                      >
+                      <a class="dropdown-item" href="cocuk.html"
+                        >Çocuk Kitapları</a
+                      >
+                      <a class="dropdown-item" href="roman.html">Roman</a>
+                      >
+                    </div>
+                  </li>
+                  <!-- Birimlerimiz Dropdown -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="birimlerDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Birimlerimiz
+                    </a>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="birimlerDropdown"
+                    >
+                      <a class="dropdown-item" href="musteri.html"
+                        >Müşteri Hizmetleri</a
+                      >
+                      <a class="dropdown-item" href="satis.html"
+                        >Depo/Stok Yönetimi</a
+                      >
+                    </div>
+                  </li>
+                  <!-- Hakkımızda Dropdown -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="birimlerDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Hakkımızda
+                    </a>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="birimlerDropdown"
+                    >
+                      <a class="dropdown-item" href="about.html">Biz Kimiz?</a>
+                      <a class="dropdown-item" href="misviz.html"
+                        >Misyon-Vizyon</a
+                      >
+                      <a class="dropdown-item" href="sayi.html"
+                        >Sayılarla Scala</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">İletişim</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sepet.html"
+                      >🛒 Sepet (<span id="cartCount"></span>)</a
+                    >
+                  </li>
+                </ul>
+                <form
+                  class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0"
+                ></form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <div class="container mt-5">
+      <!-- Ürün Fotoğraf Slider -->
+      <div class="row">
+        <div class="col-md-6">
+          <div id="productCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li
+                data-target="#productCarousel"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#productCarousel" data-slide-to="1"></li>
+              <li data-target="#productCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/stt.webp" class="d-block w-100" alt="Ürün 2" />
+              </div>
+            </div>
+
+            <a
+              class="carousel-control-prev"
+              href="#productCarousel"
+              role="button"
+              data-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#productCarousel"
+              role="button"
+              data-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Ürün Bilgileri -->
+        <div class="col-md-6">
+          <h2>Stefan Zweig - Satranç</h2>
+
+          <div class="d-flex align-items-center mb-2">
+            <span id="averageRating" class="mr-2">⭐⭐⭐⭐⭐</span>
+            <span>(120 Değerlendirme)</span>
+          </div>
+
+          <h4 class="text-success">₺149.90</h4>
+
+          <!-- Stok durumu -->
+          <p>
+            <strong>Stok Durumu:</strong>
+            <span class="badge badge-success">Stokta Var</span>
+          </p>
+          <div class="mt-4">
+            <h3>Ürün Açıklaması</h3>
+            <p>
+              Zweig’in unutulmaz eserinde, bir transatlantik yolculuğunda
+              karşılaşan iki adam arasındaki satranç düellosu, insan zihninin
+              sınırlarını ortaya çıkarır. Nazi baskısı altında delilikle deha
+              arasında sıkışan Dr. B.’nin hikâyesi psikolojik gerilimle
+              örülüdür. Kısa ama sarsıcı bu novella, satranç tahtasında insan
+              ruhunun karanlıklarını anlatır.
+            </p>
+          </div>
+          <hr />
+          <button class="btn" onclick="addToCart('Satranç', 120)">
+            Sepete Ekle
+          </button>
+        </div>
+      </div>
+
+      <!-- Yorumlar -->
+      <div class="mt-5">
+        <h3>Yorumlar</h3>
+
+        <!-- Mevcut Yorum -->
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">⭐⭐⭐⭐⭐ — Ayşe K.</h5>
+            <p>Kitap çok güzel, kargom 2 günde geldi!</p>
+            <small class="text-muted">12 Ocak 2025</small>
+          </div>
+        </div>
+
+        <!-- Yorum ekleme formu -->
+        <div class="card shadow-sm mb-4">
+          <div class="card-body">
+            <h4 class="mb-3">Yorum Yap</h4>
+
+            <form>
+              <div class="form-group">
+                <label>Adınız</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Adınızı girin"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label>Değerlendirme</label>
+                <select class="form-control" required>
+                  <option>⭐⭐⭐⭐⭐ - 5</option>
+                  <option>⭐⭐⭐⭐ - 4</option>
+                  <option>⭐⭐⭐ - 3</option>
+                  <option>⭐⭐ - 2</option>
+                  <option>⭐ - 1</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>Yorumunuz</label>
+                <textarea class="form-control" rows="4" required></textarea>
+              </div>
+
+              <button id="yorumYapBtn" class="btn" onclick="openCommentLogin()">
+                Yorum Yap
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Giriş Yap Modal -->
+      <div class="modal fade" id="loginModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">
+                Yorum yapmak için giriş yapmanız gerekmektedir! Üye değilseniz
+                önce üye olunuz!
+              </h5>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <input
+                class="form-control mb-2"
+                type="text"
+                placeholder="E-posta"
+              />
+              <input
+                class="form-control mb-2"
+                type="password"
+                placeholder="Şifre"
+              />
+              <button class="btn btn-primary w-100">Giriş Yap</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- İlgili Ürünler -->
+      <h3 class="mt-5">İlgili Ürünler</h3>
+
+      <div class="row mt-3">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="images/8.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">1984</h5>
+              <p class="text-success">₺189.90</p>
+              <a href="1984.html" class="btn btn-sm btn-primary">İncele</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="images/nromal.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Normal İnsanlar</h5>
+              <p class="text-success">₺129.90</p>
+              <a href="normal.html" class="btn btn-sm btn-primary">İncele</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="images/frda.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Aşk ve Acı</h5>
+              <p class="text-success">₺99.90</p>
+              <a href="frida.html" class="btn btn-sm btn-primary">İncele</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="images/dns.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Dönüşüm</h5>
+              <p class="text-success">₺89.90</p>
+              <a href="dnsm.html" class="btn btn-sm btn-primary">İncele</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer section -->
+
+    <section class="container-fluid footer_section">
+      <div class="container">
+        <div class="info_logo">
+          <h2>KAMPANYA MAİLLERİ İÇİN ABONE OL!</h2>
+        </div>
+        <div class="info_contact">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="">
+                <img src="images/location.png" alt="" />
+                <span> Atalar Mah. Halit Paşa Cad. No:61 Kartal/İstanbul</span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="">
+                <img src="images/call.png" alt="" />
+                <span> (+90) 558 248 69 36 </span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="">
+                <img src="images/mail.png" alt="" />
+                <span> scalakitap@gmail.com </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-lg-9">
+            <div class="info_form">
+              <form action="">
+                <input type="text" placeholder="E-mailinizi girin" />
+                <button>Abone ol</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <div class="info_social">
+              <div>
+                <a href="">
+                  <img src="images/facebook-logo-button.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/twitter-logo-button.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/linkedin.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/instagram.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>
+        &copy; <span id="displayYear"></span> Tüm hakları saklıdır.
+        <a href="https://html.design/">FNS Design</a>
+      </p>
+    </section>
+    <!-- footer section -->
+
+    <!-- Interaktif yıldız JS -->
+    <script>
+      const stars = document.querySelectorAll(".star");
+      stars.forEach((star) => {
+        star.addEventListener("click", function () {
+          const value = this.getAttribute("data-value");
+          stars.forEach((s) => (s.style.color = "#000"));
+          for (let i = 0; i < value; i++) {
+            stars[i].style.color = "gold";
+          }
+          alert(value + " yıldız verdiniz!");
+        });
+      });
+    </script>
+    <script>
+      function openCommentLogin() {
+        $("#loginModal").modal("show");
+      }
+    </script>
+    <script>
+      document
+        .getElementById("yorumYapBtn")
+        .addEventListener("click", function (e) {
+          e.preventDefault(); // Formun gönderilmesini engeller
+          let loginModal = new bootstrap.Modal(
+            document.getElementById("loginModal")
+          );
+          loginModal.show(); // Modalı açar
+        });
+    </script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/sepet.js"></script>
+  </body>
+</html>

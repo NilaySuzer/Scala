@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Scala</title>
+
+    <!-- slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
+    />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <style>
+      /* Genel tema renkleri */
+
+      /* Duyurular */
+      .list-group-item {
+        cursor: pointer;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .book-card {
+        min-width: 240px;
+        background: white;
+        border-radius: 15px;
+        padding: 12px;
+        box-shadow: 0px 4px 10px #00000020;
+        text-align: center;
+        transition: 0.3s;
+        position: relative;
+      }
+
+      .book-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .book-card img {
+        width: 100%;
+        border-radius: 10px;
+        height: 270px;
+        object-fit: cover;
+      }
+
+      /* Güzel buton */
+      .btn-custom {
+        background-color: #7e2714;
+        color: white;
+        width: 100%;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 10px;
+      }
+
+      .btn-custom:hover {
+        background: #c14;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="hero_area">
+      <!-- header section strats -->
+      <div class="brand_box">
+        <a class="navbar-brand" href="index.html"> </a>
+      </div>
+      <!-- end header section -->
+
+      <!-- slider section -->
+      <section class="slider_section position-relative">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="img-box">
+                <a href="satranc.html">
+                  <img src="images/strr.jpg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="img-box">
+                <a href="frida.html">
+                  <img src="images/frida.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="img-box">
+                <a href="dnsm.html">
+                  <img src="images/dnsm.jpg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="img-box">
+                <a href="saat.html">
+                  <img src="images/saat.jpg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+      <!-- end slider section -->
+    </div>
+
+    <!-- nav section -->
+
+    <section class="nav_section">
+      <div class="container">
+        <div class="custom_nav2">
+          <nav class="navbar navbar-expand custom_nav-container">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="d-flex flex-column flex-lg-row align-items-center">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"
+                      >Ana Sayfa <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="urunlerDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Ürünlerimiz
+                    </a>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="urunlerDropdown"
+                    >
+                      <a class="dropdown-item" href="test.html"
+                        >Test Kitapları</a
+                      >
+                      <a class="dropdown-item" href="cocuk.html"
+                        >Çocuk Kitapları</a
+                      >
+                      <a class="dropdown-item" href="roman.html">Roman</a>
+                    </div>
+                  </li>
+                  <!-- Birimlerimiz Dropdown -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="birimlerDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Birimlerimiz
+                    </a>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="birimlerDropdown"
+                    >
+                      <a class="dropdown-item" href="musteri.html"
+                        >Müşteri Hizmetleri</a
+                      >
+                      <a class="dropdown-item" href="satis.html"
+                        >Depo/Stok Yönetimi</a
+                      >
+                    </div>
+                  </li>
+                  <!-- Hakkımızda Dropdown -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="birimlerDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Hakkımızda
+                    </a>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="birimlerDropdown"
+                    >
+                      <a class="dropdown-item" href="about.html">Biz Kimiz?</a>
+                      <a class="dropdown-item" href="misviz.html"
+                        >Misyon-Vizyon</a
+                      >
+                      <a class="dropdown-item" href="sayi.html"
+                        >Sayılarla Scala</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">İletişim</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="birimlerDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Üye ol/Giriş Yap
+                    </a>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="birimlerDropdown"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        data-toggle="modal"
+                        data-target="#loginModal"
+                        >Giriş Yap</a
+                      >
+
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        data-toggle="modal"
+                        data-target="#registerModal"
+                        >Üye Ol</a
+                      >
+                    </div>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="sepet.html"
+                      >🛒 Sepet (<span id="cartCount"></span>)</a
+                    >
+                  </li>
+                </ul>
+                <form
+                  class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0"
+                ></form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <!-- Giriş Yap Modal -->
+    <div class="modal fade" id="loginModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Giriş Yap</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <input
+              class="form-control mb-2"
+              type="text"
+              placeholder="E-posta"
+            />
+            <input
+              class="form-control mb-2"
+              type="password"
+              placeholder="Şifre"
+            />
+            <button class="btn btn-primary w-100">Giriş Yap</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Üye Ol Modal -->
+    <div class="modal fade" id="registerModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Üye Ol</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <input
+              class="form-control mb-2"
+              type="text"
+              placeholder="Ad Soyad"
+            />
+            <input
+              class="form-control mb-2"
+              type="email"
+              placeholder="E-posta"
+            />
+            <input
+              class="form-control mb-2"
+              type="password"
+              placeholder="Şifre"
+            />
+            <button class="btn btn-success w-100">Kayıt Ol</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end nav section -->
+
+    <div class="container mt-4">
+      <h2>📢 Duyurular</h2>
+      <ul class="list-group">
+        <li class="list-group-item" data-toggle="modal" data-target="#duyuru1">
+          <span style="font-size: 22px">🔥</span> Popüler Kitap Kampanyası!
+        </li>
+
+        <li class="list-group-item" data-toggle="modal" data-target="#duyuru2">
+          <span style="font-size: 22px">💸</span> Hafta Sonu %20 İndirim
+        </li>
+
+        <li class="list-group-item" data-toggle="modal" data-target="#duyuru3">
+          <span style="font-size: 22px">📚</span> Çocuk kitaplarında 1 Al 1
+          Bedava
+        </li>
+
+        <li class="list-group-item" data-toggle="modal" data-target="#duyuru4">
+          <span style="font-size: 22px">🚚</span> Ücretsiz Kargo Kampanyası
+        </li>
+
+        <li class="list-group-item" data-toggle="modal" data-target="#duyuru5">
+          <span style="font-size: 22px">🏬</span> Yeni Şube Açılışı
+        </li>
+      </ul>
+
+      <a href="duyuru.html" class="btn btn-custom mt-3">Daha fazla</a>
+    </div>
+
+    <!-- === ÇOK SATANLAR === -->
+    <section class="fruit_section layout_padding mt-5">
+      <div class="container">
+        <div class="heading_container">
+          <hr />
+          <h2>Bu Ayın Çok Satanları</h2>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="fruit_container">
+          <div class="box">
+            <img src="images/84.jpg" alt="" />
+            <div class="link_box">
+              <h5>1984</h5>
+              <a href="1984.html">Ürüne Git </a>
+              <button class="btn" onclick="addToCart('1984', 120)">
+                Sepete Ekle
+              </button>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="images/nrm" alt="" />
+            <div class="link_box">
+              <h5>Normal İnsanlar</h5>
+              <a href="normal.html">Ürüne Git</a>
+              <button class="btn" onclick="addToCart('Normal İnsanlar', 120)">
+                Sepete Ekle
+              </button>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="images/3.png" alt="" />
+            <div class="link_box">
+              <h5>Üç Büyük Usta</h5>
+              <a href="">Ürüne Git</a>
+              <button class="btn" onclick="addToCart('Üç Büyük Usta', 120)">
+                Sepete Ekle
+              </button>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="images/kck.jpg" alt="" />
+            <div class="link_box">
+              <h5>Küçük Prens</h5>
+              <a href="">Ürüne Git</a>
+              <button class="btn" onclick="addToCart('Küçük Prens', 120)">
+                Sepete Ekle
+              </button>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="images/portakal.jpg" alt="" />
+            <div class="link_box">
+              <h5>Otomatik Portakal</h5>
+              <a href="">Ürüne Git</a>
+              <button class="btn" onclick="addToCart('Otomatik Portakal', 120)">
+                Sepete Ekle
+              </button>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="images/fh.jpg" alt="" />
+            <div class="link_box">
+              <h5>Fahrenheit 451</h5>
+              <a href="">Ürüne Git</a>
+              <button class="btn" onclick="addToCart('Fahrenheit 451', 120)">
+                Sepete Ekle
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- client section -->
+
+    <section class="client_section layout_padding-bottom">
+      <div class="container">
+        <div class="heading_container">
+          <h2>Müşterilerimiz ne diyor?</h2>
+          <hr />
+        </div>
+        <div
+          id="carouselExample2Controls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="client_container layout_padding-top">
+                <div class="img-box">
+                  <img src="images/img2.jpg" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>Derya Yıldız</h5>
+                  <p>
+                    <img src="images/left-quote.png" alt="" />
+                    <span>Favori kitapçım! </span>
+                    <img src="images/right-quote.png" alt="" /> <br />
+                    Kitaplar gayet düzgün kargolanmıştı, 2 günde elime
+                    ulaştılar. Hediye olarak ayraç da göndermişler, favori
+                    kitapçım!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="client_container layout_padding-top">
+                <div class="img-box">
+                  <img src="images/img.jpg" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>Deniz Gök</h5>
+                  <p>
+                    <img src="images/left-quote.png" alt="" />
+                    <span>Uygun fiyat!</span>
+                    <img src="images/right-quote.png" alt="" /> <br />
+                    Diğer kitapçılara göre çok daha uygun fiyatlı ve sık sık
+                    kampanya ve indirim yapıyorlar. Uygun fiyat!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="client_container layout_padding-top">
+                <div class="img-box">
+                  <img src="images/img4.jpg" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>Burak Ak</h5>
+                  <p>
+                    <img src="images/left-quote.png" alt="" />
+                    <span> Kitap kurtlarının vazgeçilmez adresi! </span>
+                    <img src="images/right-quote.png" alt="" /> <br />
+                    Çoğu kitapçıda olmayan kitapları burdan sipariş
+                    edebiliyorum, kitap kurtlarının vazgeçilmez adresi!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExample2Controls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExample2Controls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end client section -->
+
+    <!-- footer section -->
+    <section class="container-fluid footer_section">
+      <div class="container">
+        <div class="info_logo">
+          <h2>KAMPANYA MAİLLERİ İÇİN ABONE OL!</h2>
+        </div>
+        <div class="info_contact">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="">
+                <img src="images/location.png" alt="" />
+                <span> Atalar Mah. Halit Paşa Cad. No:61 Kartal/İstanbul</span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="">
+                <img src="images/call.png" alt="" />
+                <span> (+90) 558 248 69 36 </span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="">
+                <img src="images/mail.png" alt="" />
+                <span> scalakitap@gmail.com </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-lg-9">
+            <div class="info_form">
+              <form action="">
+                <input type="text" placeholder="E-mailinizi girin" />
+                <button>Abone ol</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <div class="info_social">
+              <div>
+                <a href="">
+                  <img src="images/facebook-logo-button.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/twitter-logo-button.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/linkedin.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/instagram.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="admin.html" class="hidden-admin">Admin Girişi</a>
+      <p>
+        &copy; <span id="displayYear"></span> Tüm hakları saklıdır.
+        <a href="https://html.design/">FNS Design</a>
+      </p>
+    </section>
+    <!-- footer section -->
+
+    <!-- Duyuru 1 Modal -->
+    <div class="modal fade" id="duyuru1" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Yeni Kitap Kampanyası</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            Bu hafta tüm popüler kitaplarda özel indirim başladı. Kaçırmayın!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Duyuru 2 Modal -->
+    <div class="modal fade" id="duyuru2" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Hafta Sonu %20 İndirim</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            6-7 Aralıkta tüm kitaplarda %20 indirim uygulanacaktır.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Duyuru 3 Modal -->
+    <div class="modal fade" id="duyuru3" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Çocuk Kitaplarında Kampanya</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            Çocuk kitaplarında 1 alana 1 bedava kampanyası başlamıştır. Kampanya
+            22 Aralık 23.59'a kadar geçerlidir.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Duyuru 4 Modal -->
+    <div class="modal fade" id="duyuru4" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Kargo Ücretsiz!</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            400 TL ve üzeri alışverişlerde kargo ücretsizdir. Kapıda ödemeli
+            siparişlerde geçerli değildir!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Duyuru 5 Modal -->
+    <div class="modal fade" id="duyuru5" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Yeni Şube Açıldı</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            İstanbul Kadıköy’de yeni şubemiz hizmete girmiştir!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/sepet.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
