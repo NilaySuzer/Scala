@@ -109,7 +109,7 @@ Projede yer alan istatistik grafikleri:
 
 🚧 Karşılaşılan Zorluklar
 
--Uygun şablon seçimi
+-Uygun şablon seçimi --> [https://themewagon.com/themes/free-bootstrap-4-html5-e-commerce-website-template-ninom/]
 
 -Şablonun sınırlarından dolayı birçok bileşenin %90'ının sıfırdan yeniden tasarlanması
 
